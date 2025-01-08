@@ -1,0 +1,61 @@
+
+#bgHead {
+    background-image: url('/logo.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 300px;
+}
+#bgHead .navbar-brand {
+    color: #F76830;
+    font-size: 14px;
+}
+#bgHead .bg-dark {
+    background-color: initial !important;
+}
+#bgHead header {
+    color: #fff;
+    padding-top: 8rem !important;
+    padding-bottom: 0;
+}
+#bgHead #navbarSupportedContent {
+    align-items: center;
+    flex-direction: column;
+}
+footer {
+    color: #FAF8F7;
+    background-color: #6E3E30;
+    font-size: 14px;
+}
+footer span {
+    margin-left: 25px;
+}
+footer span:first-child {
+    margin-left: 0;
+}
+#postContainer .card-body {
+    color: #676563;
+}
+#postContainer .card-footer .btn-primary {
+    background-color: #A56854;
+    border: none;
+    border-radius: 15px;
+}
+#postContainer .card-footer .btn-secondary, #postHeader .btn-secondary {
+    color: #676563;
+    background-color: #F5F0ED;
+    border: none;
+    border-radius: 15px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.prevnextPaginator a {
+    font-size: 24px;
+    color: #676563;
+    text-decoration: none;
+}
+.prevnextPaginator i {
+    font-size: 21px;
+    font-weight: 600;
+    padding-right: 5px;
+    padding-left: 5px;
+}
